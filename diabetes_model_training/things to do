@@ -1,0 +1,5 @@
+.\venv\Scripts\activate
+
+when no use, deactivate
+
+pip install -r requirements.txt
