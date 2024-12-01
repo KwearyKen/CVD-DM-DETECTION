@@ -5,10 +5,10 @@ import json
 from datetime import datetime
 
 # Initialize the Firebase Admin SDK
-cred_path = r"D:\Python project\Medic project\Medic\config\medic-web-app-58ff7-firebase-adminsdk-lgubi-67a7315358.json"
+cred_path = r"D:\Python project\Medic project\Medic\config\your firebase config"
 cred = credentials.Certificate(cred_path)
 firebase_admin.initialize_app(cred, {
-    'storageBucket': 'medic-web-app-58ff7.firebasestorage.app'  # Ensure this is the correct bucket name
+    'storageBucket': 'your own bucket'  # Ensure this is the correct bucket name
 })
 
 db = firestore.client()
